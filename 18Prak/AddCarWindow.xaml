@@ -1,0 +1,22 @@
+﻿<Window x:Class="AutoTechCenterApp.AddCarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Добавить автомобиль" Height="300" Width="300">
+    <Grid Margin="10">
+        <StackPanel>
+            <Label Content="Марка:"/>
+            <TextBox Name="BrandTextBox"/>
+
+            <Label Content="Модель:"/>
+            <TextBox Name="ModelTextBox"/>
+
+            <Label Content="Год выпуска:"/>
+            <TextBox Name="YearTextBox"/>
+
+            <Label Content="Гос. номер:"/>
+            <TextBox Name="LicensePlateTextBox"/>
+
+            <Button Content="Добавить" Click="AddButton_Click" Margin="0,10,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>

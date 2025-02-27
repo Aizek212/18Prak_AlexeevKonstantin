@@ -1,0 +1,25 @@
+﻿<Window x:Class="AutoTechCenterApp.AddClientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Добавить клиента" Height="300" Width="300">
+    <Grid Margin="10">
+        <StackPanel>
+            <Label Content="Имя:"/>
+            <TextBox Name="FirstNameTextBox"/>
+
+            <Label Content="Фамилия:"/>
+            <TextBox Name="LastNameTextBox"/>
+
+            <Label Content="Телефон:"/>
+            <TextBox Name="PhoneTextBox"/>
+
+            <Label Content="Email:"/>
+            <TextBox Name="EmailTextBox"/>
+
+            <Label Content="Адрес:"/>
+            <TextBox Name="AddressTextBox"/>
+
+            <Button Content="Добавить" Click="AddButton_Click" Margin="0,10,0,0"/>
+        </StackPanel>
+    </Grid>
+</Window>
